@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.header, .footer , .section{width: 100%; height: auto;  padding: 1rem 0;background: lightcoral;
+text-align: center; color: #fff;}
+/* 두 클래스에 동시에 적용할려면 , 를 찍어야 한다. */
+
+.footer {background: lightgreen;}
+
+
+.section {background: lightgoldenrodyellow; color: black;}  
+/* 폰트는 color로만 정의한다. */
+
+
+.sidebar { width: 40%; height: 100vh; left:0;  top:0; ; background: lightsteelblue;  display: flex; flex-direction:  column; justify-content: space-between; position: fixed;text-align: center}
+
+.sidebar a{color:  #fff; text-decoration: none;}
+
+.sidebar li{margin-bottom: 0.5rem ; list-style: none;}
